@@ -18,9 +18,11 @@
     <h1>TITOLO</h1>
     <p><?php echo str_replace($word, "* * *", $testo) ?></p>
     <!-- str_replace(porzioneDaModificare, conCosa, stringa) - -->
+    
     <span style="color:red">
         <?php
-            Var_dump($testo);
+            Var_dump(strlen($testo));
+            var_dump($testo)
         ?>
     </span>
 </body>
